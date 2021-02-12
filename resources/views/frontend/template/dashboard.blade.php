@@ -3,7 +3,7 @@
 @section('content')
     <div style="background-image:url('img/bg.jpg'); height:85vh; width:100%;" >
         <div class="pt-md-5 pt-0">
-            <h1 class="text-center font-weight-bold" style="font-family:Roboto; color:white;">Find a Donor Near You?</h1>
+            <h1 class="text-center font-weight-bold" style="font-family:Roboto; color:white;">Want to Find a Donor Near You?</h1>
             <p class="text-center text-white" style="font-size:20px;">Search By Blood Type</p>
             <form class="text-center" >
                 <select name="" id="" class="form-control w-50 mx-auto mt-md-3 mt-0 " placeholder="Search Blood Group">

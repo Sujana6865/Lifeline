@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Auth\LoginController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,6 +21,9 @@ Route::get('/', function () {
 Route::get('/dashboard', function () {
     return view('frontend.template.dashboard');
 });
+
+Route::resource('/register',LoginController::class);
+Route::resource('/login',LoginController::class);
 
 Auth::routes();
 

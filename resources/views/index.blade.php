@@ -24,10 +24,10 @@
                         @auth
                             <a href="{{ url('/home') }}" class="text-sm text-gray-700 underline">Home</a>
                         @else
-                            <a href="{{ route('login') }}" class="btn btn-primary text-sm text-gray-700 underline ">Login</a>
+                            <a href="/login/create" class="btn btn-primary text-sm text-gray-700 underline ">Login</a>
     
                             @if (Route::has('register'))
-                                <a href="{{ route('register') }}" class="btn btn-primary ml-4 text-sm text-gray-700 underline">Register</a>
+                                <a href="/register/create" class="btn btn-primary ml-4 text-sm text-gray-700 underline">Register</a>
                             @endif
                         @endauth
                     </div>
@@ -43,7 +43,7 @@
             <div class="col-md-6 pt-md-5 pt-0 ">
                 <h1 class="font-weight-bolder display-4" style="color:#FF636F; font-family:Roboto;">DO YOU KNOW??</h1>
                 <p class="text-secondary pt-md-3 pt-0" style=" line-height:30px; font-size:20px;">
-                   Every second, someone in the country is in urgent need of blood. It is curcial surgeries, emergencies and accidents.
+                   Every second, someone in the country is in urgent need of blood. It is crucial surgeries, emergencies and accidents.
                 </p>
                 <p class="font-weight-bold display-5" style="color:#3F3D56;">Be a donor and save life. </p>
                 <div class="pt-md-3 pt-0">
